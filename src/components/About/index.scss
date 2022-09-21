@@ -1,0 +1,86 @@
+
+.container {
+    margin-top: 6%;
+    margin-left: 5%;
+    color: white;
+    width: 50%;
+    opacity: 0;
+    display: inline-block;
+    text-align:left;
+    animation: fadeIn 1s forwards;
+    animation-delay: 1s;
+
+
+    h1 {
+        font-size: 43px;
+        width: 60%;
+        padding: 1.5%;
+        background-color: rgb(5, 133, 35) ;
+        font-family: 'coolvetica';
+        
+    &::before {
+        content: '<h1>';
+        font-family: 'La Belle Aurore';
+        font-size: 21px;
+        position: absolute;
+        margin-top: -20px;
+        left: 15px;
+        opacity: 0.6;
+        line-height: 18px;
+       }
+   
+       &::after {
+           content: '<h1 />';
+           font-family: 'La Belle Aurore';
+           font-size: 21px;
+           position: absolute;
+           margin-top: 10px;
+           left: 330px;
+           bottom: 20px;
+           opacity: 0.6;
+           line-height: 18px;
+          }
+    }
+
+    p {
+        font-family:'Montserrat';
+        line-height: 1.8em;
+        font-weight: 400;
+        width: 60%;
+        opacity: 0.8;
+        margin-top: 5%;
+        font-size: 20px;
+        animation: pulse 1s;
+        animation-delay: 1s;
+    }
+
+
+}
+
+.tech-stack {
+    width:40%;
+    float: right;
+    margin-right: 3%;
+    margin-top: 7.5%; 
+
+    p { 
+        margin-top: 10%;
+        font-size: 19px;
+        padding: 2%;
+        font-weight: 400;
+        font-style: bold;
+        width: 85%;
+        color:white;
+        font-family: 'Montserrat';
+        opacity: 0.8;
+    }
+
+    .face {
+        display: inline-block;
+        padding: 4%;
+        font-size: 50PX;
+        padding-right: 12%;
+    }
+}
+
+
