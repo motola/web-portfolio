@@ -5,7 +5,7 @@ import About from '../About';
 import { NavLink } from 'react-router-dom'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Logo from '../../assets/images/homelogo.svg';
-import Loader from 'react-loaders';
+// import Loader from 'react-loaders';
 import {
     faLinkedin,
     faGithub,
@@ -50,7 +50,6 @@ const Home = () => {
 
     <About />
     </div>
-    <Loader type="pacman" />
     </>
      )
 }

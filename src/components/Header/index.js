@@ -18,12 +18,11 @@ const Header = () => {
                 <HashLink exact="true" className="nav-link" to="/#about"><li>About </li></HashLink>
                 <NavLink exact="true" className="nav-link" to="/Resume"><li> Work</li></NavLink>
                 <NavLink exact="true" className="nav-link" to="/Blog"><li>Blog</li></NavLink>
-                <a href={pdfFile} target = "_blank" rel="noreferrer" className="nav-link"><li> Resume </li></a>
-                <NavLink exact="true" className="nav-link" to="/Contact"><li>Contact</li></NavLink>      
+                <a href={pdfFile} target = "_blank" rel="noreferrer" className="nav-link"><li> contact </li></a>  
             </ul>
            </nav>
        </div>
-       <Link><div class="right_section"><h2>Pro Bono </h2></div></Link>
+       <Link><div class="right_section"><h2>Resume </h2></div></Link>
         
       </header>
       </div>
