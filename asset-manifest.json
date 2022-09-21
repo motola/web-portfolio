@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/web-portfolio/static/css/main.122f54db.css",
+    "main.js": "/web-portfolio/static/js/main.36dd4847.js",
+    "static/js/787.e8a52378.chunk.js": "/web-portfolio/static/js/787.e8a52378.chunk.js",
+    "static/media/Roboto-Regular.ttf": "/web-portfolio/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/Roboto-Light.ttf": "/web-portfolio/static/media/Roboto-Light.333da16a3f3cc391d087.ttf",
+    "static/media/cv.pdf": "/web-portfolio/static/media/cv.fc00744b6506601e991f.pdf",
+    "static/media/Montserrat-Regular.woff": "/web-portfolio/static/media/Montserrat-Regular.4a3d63613a362f90a9e6.woff",
+    "static/media/Montserrat-Regular.woff2": "/web-portfolio/static/media/Montserrat-Regular.4ada7f2f580c676690f0.woff2",
+    "static/media/LaBelleAurore.woff": "/web-portfolio/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
+    "static/media/homelogo.svg": "/web-portfolio/static/media/homelogo.64a6aae988f674cd10e237859a24b16b.svg",
+    "static/media/LaBelleAurore.woff2": "/web-portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff2": "/web-portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/web-portfolio/index.html",
+    "main.122f54db.css.map": "/web-portfolio/static/css/main.122f54db.css.map",
+    "main.36dd4847.js.map": "/web-portfolio/static/js/main.36dd4847.js.map",
+    "787.e8a52378.chunk.js.map": "/web-portfolio/static/js/787.e8a52378.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.122f54db.css",
+    "static/js/main.36dd4847.js"
+  ]
+}
