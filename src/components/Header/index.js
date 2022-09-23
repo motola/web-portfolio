@@ -1,5 +1,5 @@
 import './index.scss';
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import {HashLink} from 'react-router-hash-link';
 import pdfFile from '../../assets/documents/cv.pdf'
 
@@ -16,13 +16,13 @@ const Header = () => {
             <nav id="nav-bar">
             <ul>
                 <HashLink exact="true" className="nav-link" to="/#about"><li>About </li></HashLink>
-                <NavLink exact="true" className="nav-link" to="/Resume"><li> Work</li></NavLink>
+                <NavLink exact="true" className="nav-link" to="/work"><li> Work</li></NavLink>
                 <NavLink exact="true" className="nav-link" to="/Blog"><li>Blog</li></NavLink>
-                <a href={pdfFile} target = "_blank" rel="noreferrer" className="nav-link"><li> contact </li></a>  
+                <HashLink exact="true" className="nav-link" to="/#contact"><li> contact </li></HashLink> 
             </ul>
            </nav>
        </div>
-       <Link><div class="right_section"><h2>Resume </h2></div></Link>
+       <div class="right_section"><h2> <a href={pdfFile} target = "_blank" rel="noreferrer" className="nav-link">Resume </a> </h2></div>
         
       </header>
       </div>

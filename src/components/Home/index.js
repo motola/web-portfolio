@@ -5,6 +5,7 @@ import About from '../About';
 import { NavLink } from 'react-router-dom'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Logo from '../../assets/images/homelogo.svg';
+import Contact from '../Contact'
 // import Loader from 'react-loaders';
 import {
     faLinkedin,
@@ -49,7 +50,9 @@ const Home = () => {
     </section>
 
     <About />
+    <Contact />
     </div>
+    
     </>
      )
 }
