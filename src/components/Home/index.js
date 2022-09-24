@@ -2,7 +2,7 @@ import './index.scss';
 import {useState} from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import About from '../About';
-import { NavLink } from 'react-router-dom'; 
+import { NavLink, Link } from 'react-router-dom'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Logo from '../../assets/images/homelogo.svg';
 import Contact from '../Contact'
@@ -27,15 +27,15 @@ const Home = () => {
     <main>
     <h3> <AnimatedLetters letterClass={letterClass} strArray={greetingArray} idx={1} /><span className="green"><AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={16}  /> <br />  </span> <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={24} /></h3>
     <nav>
-    <NavLink exact="true" activeclassname="active" to="/">
+    <a exact="true" activeclassname="active" href="https://www.linkedin.com/in/akinolaolutola"s>
     <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" /> 
-    </NavLink>
-    <NavLink exact="true" activeclassname="active" className="about-link" to="/#about">
+    </a>
+    <a exact="true" activeclassname="active" className="about-link" href="https://github.com/motola">
     <FontAwesomeIcon icon={faGithub} color="#4d4d4e" /> 
-    </NavLink>
-    <NavLink exact="true" activeclassname="active" className="contact-link" to="/about">
+    </a>
+    <a exact="true" activeclassname="active" className="contact-link" href="https://www.instagram.com/akinmotola">
     <FontAwesomeIcon icon={faInstagram} color="#4d4d4e" /> 
-    </NavLink> 
+    </a> 
     </nav>
 
 

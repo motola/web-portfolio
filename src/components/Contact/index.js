@@ -14,7 +14,8 @@ const Contact = () => {
     const refForm= useRef();
 
     const sendEmail = (e) => {
-     e.preventDefault();
+
+      e.preventDefault();
 
      emailjs.sendForm('service_xwfca3b', 'contact-form', refForm.current, 'XzmDfsT_a1d_uc3sN')
      .then(() => {
@@ -29,6 +30,7 @@ const Contact = () => {
      );
 
     }
+
 
  
    
@@ -102,12 +104,12 @@ const Contact = () => {
           <span>olutolamoses@gmail.com</span>
         </div>
         <div className="map-wrap">
-        <MapContainer center={[51.505, -0.09]} zoom={13} scrollWheelZoom={false}>
+        <MapContainer center={[6.65, 3.37]} zoom={13} scrollWheelZoom={false}>
   <TileLayer
     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
   />
-  <Marker position={[51.505, -0.09]}>
+  <Marker position={[6.65, 3.37]}>
     <Popup>
       A pretty CSS3 popup. <br /> Easily customizable.
     </Popup>
