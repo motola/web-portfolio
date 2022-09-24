@@ -2,7 +2,6 @@ import './index.scss';
 import {useState} from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import About from '../About';
-import { NavLink, Link } from 'react-router-dom'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Logo from '../../assets/images/homelogo.svg';
 import Contact from '../Contact'
