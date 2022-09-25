@@ -169,29 +169,29 @@
   animation: backInRight 1s 1.2s;
   animation-fill-mode: forwards;
 }
-.info-map {
-  position: absolute;
-  background: #000;
-  top: 1800px;
-  right: 33%;
-  z-index: 999999;
-     width: 10%;
-     padding:2% 2.1%;
-     color: #ffffe0;
-     font-family: 'Helvetica';
-     font-size: 14px;
-     font-weight: 300;
-     text-align: left;
-     opacity: 0;
-     border-radius: 3px 3px;
-     animation: fadeIn 1s 1.5s;
-     animation-fill-mode: forwards;
+// .info-map {
+//   position: absolute;
+//   background: #000;
+//   top: 1800px;
+//   right: 33%;
+//   z-index: 999999;
+//      width: 10%;
+//      padding:2% 2.1%;
+//      color: #ffffe0;
+//      font-family: 'Helvetica';
+//      font-size: 14px;
+//      font-weight: 300;
+//      text-align: left;
+//      opacity: 0;
+//      border-radius: 3px 3px;
+//      animation: fadeIn 1s 1.5s;
+//      animation-fill-mode: forwards;
   
-   span {
-         font-size: 16px;
-         color: #ffd700;
-     }
+//    span {
+//          font-size: 16px;
+//          color: #ffd700;
+//      }
     
-   }
+//    }
 
 }

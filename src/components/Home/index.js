@@ -4,7 +4,8 @@ import AnimatedLetters from '../AnimatedLetters';
 import About from '../About';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Logo from '../../assets/images/homelogo.svg';
-import Contact from '../Contact'
+import Contact from '../Contact';
+import Work from '../Work';
 // import Loader from 'react-loaders';
 import {
     faLinkedin,
@@ -49,6 +50,7 @@ const Home = () => {
     </section>
 
     <About />
+    <Work />
     <Contact />
     </div>
     
