@@ -26,7 +26,7 @@ const Work = () => {
        </a>
         <h3>Stackoverflow API </h3>
         <h5> Built a stackoverflow backend API that performs all basic CRUD operations that runs on the stackoverflow application, integrated authentication with Jsonwebtoken and persisted data with a NoSql database. </h5>
-        <p className='text'> Node.js MongoDB Express.js Mongoose Swagger. </p>    
+        <p className='text'> Node.js MongoDB Express.js Mongoose. </p>    
         </li>
 
         <li className="projects"> 

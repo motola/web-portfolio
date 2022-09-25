@@ -6,7 +6,7 @@ header {
     background-color: #0f0e0e;
     color: white;
     align-items: center;
-    font-family: 'Roboto';
+    font-family: 'ReemkufiInk';
     font-weight: 600px;
 .green {
     color:rgb(42, 210, 81);
@@ -18,6 +18,10 @@ header {
     margin-left: 70px;
     color: rgb(42, 210, 81);
     font-size: 17px;
+
+    #header_2 {
+        font-family: 'ReemkufiInk';
+    }
 }
 
 .left_section #paragraph {
@@ -39,7 +43,7 @@ header {
   padding: 1% 0.5%;
   font-weight: 800;
   font-size: 16px;
-  font-family: Helvetica, sans-serif;
+  font-family: 'ReemkufiInk';
   color: white;
 }
 

@@ -33,6 +33,12 @@
   src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
 
 }
+
+@font-face {
+  font-family: 'ReemkufiInk';
+  src:url('./assets/fonts/ReemKufiInk-Regular.woff2') format('woff2'),
+  url('./assets/fonts/ReemKufiInk-Regular.woff') format('woff')
+}
 .loader-hidden {
   display: none;
 }
