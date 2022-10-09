@@ -95,23 +95,22 @@ const Contact = () => {
             </div>
             <div className="info-map">
            Akinola Olutola
+           <br />
+          Lailas House, Laisteridge Lane, Bradford <br />
           <br />
-          Lagos, Nigeria
-          <br />
-          4, Olutola Street, <br />
-          Ojodu Abiodun <br />
-          <br />
+         West Yorkshire, United Kingdom
+         <br />
           <span>olutolamoses@gmail.com</span>
         </div>
         <div className="map-wrap">
-        <MapContainer center={[6.65, 3.37]} zoom={13} scrollWheelZoom={false}>
+        <MapContainer center={[53.78636, -1.76692]} zoom={13} scrollWheelZoom={false}>
   <TileLayer
     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
   />
   <Marker position={[6.65, 3.37]}>
     <Popup>
-      A pretty CSS3 popup. <br /> Easily customizable.
+      Laisteridge Lane <br /> Bradford
     </Popup>
   </Marker>
 </MapContainer>
