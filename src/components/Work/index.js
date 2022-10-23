@@ -16,7 +16,7 @@ const Work = () => {
         <>
         <div id="work" className='work-container'>
 
-        <h3> Projects I have worked on </h3>
+        <h3 class="head-1"> Projects I have worked on </h3>
         <p><a href="https://www.github.com/motola"> view other projects on github</a> </p>
 
         <ul className='large-3'>

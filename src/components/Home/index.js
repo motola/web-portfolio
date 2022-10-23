@@ -6,6 +6,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Logo from '../../assets/images/homelogo.svg';
 import Contact from '../Contact';
 import Work from '../Work';
+import Blog from '../Blog';
+import Footer from '../Footer';
+
 // import Loader from 'react-loaders';
 import {
     faLinkedin,
@@ -27,7 +30,7 @@ const Home = () => {
     <main>
     <h3> <AnimatedLetters letterClass={letterClass} strArray={greetingArray} idx={1} /><span className="green"><AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={16}  /> <br />  </span> <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={24} /></h3>
     <nav>
-    <a exact="true" activeclassname="active" href="https://www.linkedin.com/in/akinolaolutola"s>
+    <a exact="true" activeclassname="active" href="https://www.linkedin.com/in/akinolaolutola">
     <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" /> 
     </a>
     <a exact="true" activeclassname="active" className="about-link" href="https://github.com/motola">
@@ -52,6 +55,8 @@ const Home = () => {
     <About />
     <Work />
     <Contact />
+    <Blog />
+    <Footer />
     </div>
     
     </>

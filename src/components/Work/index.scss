@@ -90,4 +90,40 @@
         }
 
     }
+  
 }
+
+@media only screen and (max-width: 768px) {
+    .work-container {
+       .head-1 {
+        margin-top: 80%;
+        
+       }
+       ul.large-3 {
+        min-width: 100%;
+        margin:0;
+        display: block;
+    }
+
+    .projects{
+        width:80%;
+        float: none;
+        height: 25vh;
+         margin-top: 20px;
+        align-items: center;
+
+        h5 {
+            height: 7vh;
+        }
+
+        p.text {
+            margin-top: 1%;
+            padding-bottom: 0;
+        }
+    }
+}
+
+
+}
+
+

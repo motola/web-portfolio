@@ -100,7 +100,7 @@ const Contact = () => {
           <br />
          West Yorkshire, United Kingdom
          <br />
-          <span>olutolamoses@gmail.com</span>
+          <span class="mail">olutolamoses@gmail.com</span>
         </div>
         <div className="map-wrap">
         <MapContainer center={[53.78636, -1.76692]} zoom={13} scrollWheelZoom={false}>

@@ -85,3 +85,37 @@
 }
 
 
+
+@media only screen and (max-width: 768px) {
+    .container {
+        margin-top: 1%;
+        width: 100%;
+
+        p {
+      width: 90%;
+
+         }
+    }
+
+    .tech-stack {
+        width: 100%;
+        margin-top: -5%;
+        content: "";
+        clear: both;
+        display: table;
+        // text-align: left;
+        padding-left:15%;
+        margin-right: 0;
+    }
+
+    .tech-stack p {
+        width: 90%;
+        padding-left: 5%;
+    }
+    .tech-stack .face {
+        padding-left: 4%;
+        text-align: center;
+
+    }
+
+}
