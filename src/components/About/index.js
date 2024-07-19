@@ -1,23 +1,8 @@
 import './index.scss';
-import AnimatedLetters from '../AnimatedLetters';
+import {faGear, faWandMagicSparkles,faSnowflake, faCodeCompare} from'@fortawesome/free-solid-svg-icons'
 import {useState} from 'react';
-import {
-    faAngular,
-    faCss3,
-    faGitAlt,
-    faHtml5,
-    faJsSquare,
-    faReact,
-    faNodeJs,
-    faSass,
-    faVuejs,
-    faNpm,
-    faPython,
-    faNode,
-
-
-  } from '@fortawesome/free-brands-svg-icons';
-
+import myPics from '../../assets/images/about.jpg';
+import Footer from '../Footer';
 
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -30,58 +15,54 @@ const About = () => {
 
     return (
         <>
-        <div id="about" className='container about-page '>
-         <h1>
-          <AnimatedLetters letterClass={letterClass} strArray={['A','b','o','u','t', ' ', 'm', 'e']} 
-          idx={15} />
-         </h1>
-
-         <p>Hello! My name is Akinola Olutola, I love innovating and creating solutions that makes live better and more convenient for people around the globe, mostly internet related.</p>
-
-         <p>Although I have a medical background I have always been fascinated by how the internet works and how it influences everything we do as humans and that has motivated me to delve into software engineering. My creativity, curiousity, passion and instinct as brought me to a stage where I am fully now a software Engineer. </p>
         
+        <div className="tech-stack about1">
+        <h2 class="header-button">About Me </h2>
         </div>
+        <div id="about" className='container about-page '>
+          <div class="about-stack">
+         <h1>Hello! My name is Akinola Olutola</h1>
+         <p> I love innovating and creating solutions that makes live better and more convenient for people around the globe, mostly internet related. Although I have a medical background I have always been fascinated by how the internet works and how it influences everything we do as humans and that has 
+          motivated me to delve into software engineering. My creativity, curiousity, passion and 
+          instinct as brought me to a stage where I am fully now a software Engineer. </p>
+          <p>Although I have a medical background I have always been fascinated by how the internet works and how it influences everything we do as humans and that has motivated me to delve into software engineering. My creativity, curiousity, passion and instinct as brought me to a stage where I am fully now a software Engineer.</p>
+          </div>
+        
      
-         <div className="tech-stack">
-         <p> Here are some few technologies I currently use to create amazing things on the web. </p>
-            <div className="face face1">
-              <FontAwesomeIcon icon={faAngular} color="#DD0031" />
-            </div>
-            <div className="face face2">
-              <FontAwesomeIcon icon={faHtml5} color="#F06529" />
-            </div>
-            <div className="face face3">
-              <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
-            </div>
-            <div className="face face4">
-              <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
-            </div>
-            <div className="face face5">
-              <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
-            </div>
-            <div className="face face6">
-              <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
-            </div>
-            <div className="face face1">
-              <FontAwesomeIcon icon={faNodeJs} color="#DD0031" />
-            </div>
-            <div className="face face2">
-              <FontAwesomeIcon icon={faNpm} color="#F06529" />
-            </div>
-            <div className="face face3">
-              <FontAwesomeIcon icon={faPython} color="#28A4D9" />
-            </div>
-            <div className="face face4">
-              <FontAwesomeIcon alt="Vue" icon={faVuejs} color="#5ED4F4" />
-            </div>
-            <div className="face face5">
-              <FontAwesomeIcon icon={faSass} color="#EFD81D" />
-            </div>
-            <div className="face face5">
-              <FontAwesomeIcon icon={faNode} color="#EFD81D" />
-            </div>
+         <div className="about-pics">
+         <img src={myPics}/>
         </div>
-      
+        </div>
+
+        <div className="tech-stack">
+        <h2 class="header-button about2">My Work Values </h2>
+        </div>
+        <div id="about" className='about-bottom'>
+        <div class="about-work">
+         <p><FontAwesomeIcon icon={faGear} size="2xl" color="#2F70ED" /></p>
+         <h1>Everything is a System</h1>
+          <p>Although I have a medical background I have always been fascinated by how the internet works and how it influences everything we do as humans and that has motivated me to delve into software engineering. My creativity, curiousity, passion and instinct as brought me to a stage where I am fully now a software Engineer.</p>
+          </div>
+         <div class="about-work">
+         <p><FontAwesomeIcon icon={faWandMagicSparkles} size="2xl" color="#2F70ED" /></p>
+         <h1>Minimalism</h1>
+          <p>I aim always to create a design that emphasizes simplicity and elegance, by eliminating unnecessary elements and features, I strive to achieve a clean and uncluttered user experience and this approach enhances usability, reduces cognitive load, and promotes a sense of calm and clarity for the users.</p>
+          </div>
+          <div class="about-work">
+         <p><FontAwesomeIcon icon={faSnowflake} size="2xl" color="#2F70ED" /></p>
+         <h1>Seek Clarity Always</h1>
+          <p>I am always driven to achieve clarity and eliminate ambiguity when facing design challenges. My focus is on conveying information clearly to users and ensuring intuitive actions for a seamless user experience.</p>
+          </div>
+   
+          <div class="about-work">
+          <p><FontAwesomeIcon icon={faCodeCompare} size="2xl" color="#2F70ED" /></p>
+          <h1>Never Stop Iterating</h1>
+           <p>I firmly believe in the power of iteration in design. I strive to maximize iteration by validating design decisions at various stages of the process, leading to impactful results.</p>
+           </div>
+          </div>
+        
+        
+          <Footer />
       </>
       
     )

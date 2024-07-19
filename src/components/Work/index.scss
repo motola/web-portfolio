@@ -2,18 +2,23 @@
     width: 100%;
     text-align: center;
     margin:0;
+    color:white;
     padding:0;
 
+    .head-1 {
+        margin-top: 50px;
+    }
+
     h3 {
-        font-size: 45px;
-        color:#ffffe0;
+        font-size: 40px;
+        font-weight: 200;
         font-family: 'coolvetica';
         margin:0;
     }
 
     p a {
         font-size: 19px;
-        color:yellow;
+        color:#2F70ED;
         font-family: 'La Belle Aurore'; 
 
     &:hover {
@@ -23,28 +28,67 @@
     }
 
       ul.large-3 {
-       display: inline-block;
-       margin-right: 15%;
-       margin-left: 15%;
+       display:flex;
+       gap: 5rem;
+       flex-direction: row;
+       margin:auto;
        text-align: center;
+       justify-content: center;
        max-width:100%;
+       margin: auto;
+       font-family: 'Inter';
       }
 
 
-    .projects {
-        width: 30%;
-        background: #ffffe0;
-        box-shadow: 5px 5px 5px rgba(21, 20, 21, 0.15);
-        color:black;
-        padding: 2% 1% 0% 1%;
+    .project {
+        display: block;
+        width: 22%;
+        color:white;
+        margin-top: 4%;
+        height: 80vh;
+        padding: 1.5% 1.5% 0% 1.5%;
+        border: 0.8px solid grey;
+        border-radius: 18px;
         text-align: left;
-        height: 40vh;
-        border-radius: 3px 3px;
-        float: left;
-        margin: 0% 0.5% 0 0.5%; 
         text-decoration: none;
         list-style-type: none;
-        animation:fillUp 1s 1s; 
+
+    img {
+        max-width: 100%;
+        border-radius: 14px;
+    }
+
+    .brand-line {
+        display: flex;
+        flex-direction: row;
+        padding-top: 18px;
+        gap: 1.5rem;
+        align-content: center;
+    }
+    ul.project-footer {
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;
+        gap:1rem;
+        padding:0;
+        justify-content:flex-start;
+        align-items: flex-start;
+        font-family: 'Inter',sans-serif;
+        font-size: 12px;
+        margin-bottom:25px;
+    }
+    .project-footer li {
+        display: flex;
+        list-style-type: none;
+        width:20%;
+        justify-content: center;
+        border: 1px solid rgb(71, 70, 70);
+        margin: 0;
+        padding: 2.5% 2%;
+        border-radius: 14px;
+        background-color: rgb(71, 70, 70);
+    }
+
 
         a:hover {
 
@@ -69,21 +113,19 @@
         
         h3 {
        font-size: 24px;
-       color: black;
        padding-top: 2%;
         }
         h5{
             font-size: 1.5em;
             height: 13vh;
             font-weight: 200;
-            font-family: 'Roboto';
+            text-align:left;
         }
 
         p.text {
             font-size: 13px;
             word-spacing: 5px;
             font-family: 'Roboto';
-            color:black;
             padding-bottom: 5%;
             // opacity: 0.5;
             font-weight: 600;

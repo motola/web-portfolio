@@ -1,44 +1,40 @@
 import './index.scss';
-import {useState} from 'react';
-import AnimatedLetters from '../AnimatedLetters';
-import About from '../About';
+
+import { NavLink } from 'react-router-dom';
+import  TechLogo from '../TechStack';
+import  Price from '../Price';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Logo from '../../assets/images/homelogo.svg';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import {HashLink} from 'react-router-hash-link';
+import About from '../About';
+import Logo from '../../assets/images/heroimage.png';
 import Contact from '../Contact';
 import Work from '../Work';
 import Blog from '../Blog';
 import Footer from '../Footer';
 
 // import Loader from 'react-loaders';
-import {
-    faLinkedin,
-    faGithub,
-    faInstagram,
-  } from '@fortawesome/free-brands-svg-icons'
+
 
 
 const Home = () => {
   
-    const [letterClass] = useState('text-animate');
-    const greetingArray = ['H', 'e', 'y', ' ', 't', 'h', 'e', 'r', 'e', ',', ' ', 'I', ' ','a', 'm', ' ']
-    const nameArray = ['A','k','i','n','o','l','a','.']
-    const jobArray = ['A',' ','F','u','l','l',' ','S','t','a','c','k',' ',' S','o','f','t','w','a','r','e', ' ', '',' ','E','n','g','i','n','e','e','r']
+    // const [letterClass] = useState('text-animate');
+    // const greetingArray = ['H', 'e', 'y', ' ', 't', 'h', 'e', 'r', 'e', ',', ' ', 'I', ' ','a', 'm', ' ']
+    // const nameArray = ['A','k','i','n','o','l','a','.']
+    // const jobArray = ['A',' ','F','u','l','l',' ','S','t','a','c','k',' ',' S','o','f','t','w','a','r','e', ' ', '',' ','E','n','g','i','n','e','e','r']
      return (
       <>
         <div className='main-section'>
-    <section>
+    <section className="section">
     <main>
-    <h3> <AnimatedLetters letterClass={letterClass} strArray={greetingArray} idx={1} /><span className="green"><AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={16}  /> <br />  </span> <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={24} /></h3>
+    <h3> Hello, I'm Akinola, <br/> a Full-Stack Software Engineer</h3>
     <nav>
-    <a exact="true" activeclassname="active" href="https://www.linkedin.com/in/akinolaolutola">
-    <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" /> 
-    </a>
-    <a exact="true" activeclassname="active" className="about-link" href="https://github.com/motola">
-    <FontAwesomeIcon icon={faGithub} color="#4d4d4e" /> 
-    </a>
-    <a exact="true" activeclassname="active" className="contact-link" href="https://www.instagram.com/akinmotola">
-    <FontAwesomeIcon icon={faInstagram} color="#4d4d4e" /> 
-    </a> 
+    <h5>Building Innovative Solutions and Solving Complex problems with code.</h5>
+    <ul className='nav-button'>
+    <HashLink exact="true" className="nav-link" to="/#work"><li> View My Projects <FontAwesomeIcon icon={faArrowRight} /> </li></HashLink>
+    <HashLink exact="true" className="nav-link" to="/#price"><li class="plain-button"> Hire Me </li></HashLink>
+    </ul>
     </nav>
 
 
@@ -49,12 +45,20 @@ const Home = () => {
 
 
     </aside>
+    
+   
 
     </section>
+    <div class="block">
+    <div class="projects">
+      <h1> Projects Completed</h1>
+      <h2>20+</h2>
+    </div>
+    </div>
 
-    <About />
     <Work />
-    <Contact />
+    <TechLogo />
+    <Price />
     <Blog />
     <Footer />
     </div>

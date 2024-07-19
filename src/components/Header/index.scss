@@ -1,74 +1,64 @@
+
+
 header {
     display: flex;
     flex-direction: row;
-    height:80px;
-    position: relative;
-    background-color: #0f0e0e;
+    height:60px;
     color: white;
+    max-width: 45%;
+    margin-inline:auto;
+    justify-content: space-around;
     align-items: center;
-    font-family: 'ReemkufiInk';
-    font-weight: 600px;
-.green {
-    color:rgb(42, 210, 81);
-}
+    font-family: 'Inter';
+    border: 0.08px solid rgb(112, 111, 111);
+    border-radius: 15px;
+
 
 .left_section {
-    width: 350px;
-    align-items: left;
-    margin-left: 70px;
-    color: rgb(42, 210, 81);
-    font-size: 17px;
-
-    #header_2 {
-        font-family: 'ReemkufiInk';
-    }
+    // color: rgb(42, 210, 81);
+    font-size: 14px;
+   
 }
 
 .left_section #paragraph {
-    word-spacing: 30px;
+    word-spacing: 10px;
     letter-spacing: 5.5px;
 }
+// List Navigation Elements
 
-.middle-section2 {
-    flex:1;
-    margin-right: 35px;
-    text-align:center;
-    
+
+.middle-section2 nav ul {
+    min-width:320px;
+    display: flex;
+    justify-content: flex-start;
 }
-
 
 .middle-section2 nav ul li {
-  display: inline-block;
-  width: 100px;
-  padding: 1% 0.5%;
-  font-weight: 800;
-  font-size: 16px;
-  font-family: 'ReemkufiInk';
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  min-width: 70px;
+  padding: 0 1.5%;
+  font-size: 15px;
+  font-weight: lighter;
   color: white;
 }
-
-.right-section2 {
-    width: 15%;
-    align-items: left;
-    justify-content: left;
-    margin-right: 1%;
-    margin-top: 10px;
+a {
     color:white;
-    
-  
 }
+
 
 .right-section2 h2 {
     font: 14px Helvetica, sans-serif;
-    border: 2px solid rgb(42, 210, 81);
-    width: 70%;
-    border-radius: 3px;
+    border: 2px solid #2F70ED;
+    width: 85px;
+    border-radius: 10px;
     margin-left: 25px;
-    padding: 5% 2.5%;
-    background-color: rgb(42, 210, 81);
+    padding: 8% 1%;
+    background-color: #2F70ED;
     text-align:center;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 100;
     color:white; 
 
     a {
@@ -91,13 +81,13 @@ section {
 
 }
 
-@media only screen and (max-width: 1250px) {
+    @media only screen and (max-width: 1050px) {
 
     header {
         display: inline-block;
         width:100%;
         flex-direction: row;
-        height:80px;
+        height:80px;  
         // position: relative;
         // align-items: center;
        
