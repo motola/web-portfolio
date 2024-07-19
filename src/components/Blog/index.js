@@ -19,17 +19,17 @@ const Blog = () => {
 
         <div className="blog-article"> 
          <div className='blog-content'>
-            <img src={ProjectImage1} />
+            <img src={ProjectImage1} alt="project1"/>
           <div className="blog-words">
-            <h3>Why having Values can set you apart as a Software Engineer. <span className="blog-link"><a href="https://www.medium.com//p/d9f80339f6bf"> </a> </span></h3>
+            <h3><a href="https://www.medium.com//p/d9f80339f6bf"> Why having Values can set you apart as a Software Engineer. </a></h3>
             <p> Every individual and every organisation is involved in making hundreds of decisions every day. The decisions we make are a reflection of our values and beliefs, and they are always directed towards a specific purpose. </p>
          </div>
          </div>
 
          <div className='blog-content'>
-            <img src={ProjectImage2} />
+            <img src={ProjectImage2} alt="project2"/>
             <div className="blog-words">
-            <h3> Coding for Beginners and How to Learn Programming for Free<span className="blog-link"><a href="https://www.freecodecamp.org/news/how-to-code-coding-for-beginners-and-how-to-learn-programming-for-free/"></a> </span></h3>
+            <h3> <a href="https://www.freecodecamp.org/news/how-to-code-coding-for-beginners-and-how-to-learn-programming-for-free/">Coding for Beginners and How to Learn Programming for Free</a></h3>
             <p className="last-border"> These days, there are a lot resources out there for learning how to code. And many of them are readily available online for free – so choosing one can be overwhelming. </p>
          </div>
          </div>
