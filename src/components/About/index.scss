@@ -1,90 +1,105 @@
 
 .container {
-    margin-top: 6%;
-    margin-left: 5%;
+    margin-top: 5%;
+    margin-left:2.5%;
+    margin-right:5%;
     color: white;
-    width: 50%;
-    opacity: 0;
-    display: inline-block;
-    text-align:left;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     animation: fadeIn 1s forwards;
     animation-delay: 1s;
     margin-bottom: 50px;
 
 
     h1 {
-        font-size: 43px;
-        width: 60%;
-        padding: 1.5%;
-        background-color: rgb(5, 133, 35) ;
+        font-size: 40px;
+        width: 90%;
+        padding: 1%;
         font-family: 'coolvetica';
-        
-    &::before {
-        content: '<h1>';
-        font-family: 'La Belle Aurore';
-        font-size: 21px;
-        position: absolute;
-        margin-top: -20px;
-        left: 15px;
-        opacity: 0.6;
-        line-height: 18px;
-       }
-   
-       &::after {
-           content: '<h1 />';
-           font-family: 'La Belle Aurore';
-           font-size: 21px;
-           position: absolute;
-           margin-top: 10px;
-           left: 330px;
-           bottom: 20px;
-           opacity: 0.6;
-           line-height: 18px;
-          }
+}
+
+
+    p { 
+        font-size: 16px;
+        font-weight: 200;
+        font-style: bold;
+        line-height: 23px;
+        word-spacing: 1px;
+        width: 80%;
+        color:white;
+        font-family: 'Inter', sans-serif;
     }
 
-    p {
-        font-family:'Montserrat';
-        line-height: 1.8em;
-        font-weight: 400;
-        width: 60%;
-        opacity: 0.8;
-        margin-top: 5%;
-        font-size: 20px;
-        animation: pulse 1s;
-        animation-delay: 1s;
-    }
+}
+
+.about1 {
+    margin-top:5%;
+}
 
 
+.about-stack {
+    width: 50%;
+}
+
+.about-pics {
+    width: 40%;
+}
+
+.about-pics img {
+    border-radius: 3rem 10rem 6rem 12rem;
 }
 
 .tech-stack {
-    width:40%;
-    float: right;
-    margin-right: 3%;
-    margin-top: 7.5%; 
-
-    p { 
-        margin-top: 10%;
-        font-size: 19px;
-        padding: 2%;
-        font-weight: 600;
-        font-style: bold;
-        width: 85%;
-        color:yellow;
-        font-family: 'Montserrat';
-        opacity: 0.8;
+    max-width:50%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 10%;
+    display: block;
+    text-align: center;
+   
+    .about2 {
+        width:20%;
+        margin-top: -9%;
+        background-color: white;
+        color:black;
     }
-
-    .face {
-        display: inline-block;
-        padding: 4%;
-        font-size: 50PX;
-        padding-right: 12%;
-    }
+   
 }
 
+.about-bottom {
+    color:white;
+    margin-top: 45px;
+    font-family: 'Inter';
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 70%;
+    margin-bottom:85px;
+    margin-left:auto;
+    margin-right:auto;
+    justify-content: space-around;
+}
+.about-work {
+    width:40%;
+    margin-top:50px;
+    border: 1px solid grey;
+    border-radius: 14px;
+    padding:2.5%;
 
+    h1 {
+    font-weight: 200;
+    font-size: 21px;
+
+    }
+    p {
+        font-weight: 400;
+        font-size: 12px;
+        color:grey;
+        line-height: 18px;
+    }
+}
 
 @media only screen and (max-width: 768px) {
     .container {
