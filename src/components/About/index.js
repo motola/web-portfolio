@@ -1,6 +1,5 @@
 import './index.scss';
-import {faGear, faWandMagicSparkles,faSnowflake, faCodeCompare} from'@fortawesome/free-solid-svg-icons'
-import {useState} from 'react';
+import {faGear, faWandMagicSparkles,faSnowflake, faCodeCompare} from'@fortawesome/free-solid-svg-icons';
 import myPics from '../../assets/images/about.jpg';
 import Footer from '../Footer';
 
@@ -11,7 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 const About = () => {
-    const [letterClass] = useState('text-animate');
+
 
     return (
         <>
@@ -30,7 +29,7 @@ const About = () => {
         
      
          <div className="about-pics">
-         <img src={myPics}/>
+         <img src={myPics} alt="Akinola Olutola"/>
         </div>
         </div>
 

@@ -4,8 +4,7 @@ import ProjectImage2 from '../../assets/images/project-two.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
     faGithub
-  } from '@fortawesome/free-brands-svg-icons'
-import { faEarth } from '@fortawesome/free-solid-svg-icons';
+  } from '@fortawesome/free-brands-svg-icons';
 
 
 

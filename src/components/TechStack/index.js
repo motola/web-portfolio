@@ -1,5 +1,4 @@
 import './index.scss';
-import {useState} from 'react';
 import {
     faAngular,
     faCss3,
@@ -31,7 +30,7 @@ import {faC} from '@fortawesome/free-solid-svg-icons';
 
 
 const Tech = () => {
-    const [letterClass] = useState('text-animate');
+
 
     return (
         <>

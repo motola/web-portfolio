@@ -1,14 +1,10 @@
 import './index.scss';
-
-import { NavLink } from 'react-router-dom';
 import  TechLogo from '../TechStack';
 import  Price from '../Price';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import {HashLink} from 'react-router-hash-link';
-import About from '../About';
 import Logo from '../../assets/images/heroimage.png';
-import Contact from '../Contact';
 import Work from '../Work';
 import Blog from '../Blog';
 import Footer from '../Footer';
