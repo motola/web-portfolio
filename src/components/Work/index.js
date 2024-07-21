@@ -28,7 +28,7 @@ const Work = () => {
         <li className="project">
         <img src={ProjectImage1} alt="music"/>
         <div class="brand-line">
-        <a exact="true" activeclassname="active" className="about-link" href="https://github.com/motola/typescript-indepth">
+        <a exact="true" activeclassname="active" className="about-link" href="https://github.com/motola/api-support-dns-devops">
         <FontAwesomeIcon icon={faGithub} color="white" /> 
        </a>
          <h3>AI Website Builder</h3>     {/*  1 */}
@@ -138,7 +138,7 @@ const Work = () => {
         <li className="project cut">
         <img src={ProjectImage5} alt="music"/>
         <div class="brand-line">
-        <a exact="true" activeclassname="active" className="about-link" href="https://github.com/motola/Store-API">
+        <a exact="true" activeclassname="active" className="about-link" href="https://github.com/motola/react-markdown-notes-app">
     <FontAwesomeIcon icon={faGithub} color="white"/> 
        </a>
        <h3> React Notes Application </h3>  {/*  5 */}
@@ -161,7 +161,7 @@ const Work = () => {
         <li className="project cut">
         <img src={ProjectImage6} alt="music"/>
         <div class="brand-line">
-        <a exact="true" activeclassname="active" className="about-link" href="https://github.com/motola/stackoverflow-API">
+        <a exact="true" activeclassname="active" className="about-link" href="https://github.com/motola/meekshire">
         <FontAwesomeIcon icon={faGithub} color="white" /> 
        </a>
         <h3> Meekshire </h3>  {/*  6 */}
