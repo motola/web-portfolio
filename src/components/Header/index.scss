@@ -5,7 +5,7 @@ header {
     flex-direction: row;
     height:60px;
     color: white;
-    max-width: 45%;
+    max-width: 48%;
     margin-inline:auto;
     justify-content: space-around;
     align-items: center;
@@ -59,7 +59,11 @@ a {
     text-align:center;
     font-size: 14px;
     font-weight: 100;
-    color:white; 
+    color:white;
+
+    &:hover {
+     background-color: #255AA8;
+    }
 
     a {
         color: white;

@@ -53,29 +53,27 @@
 
     h3 {
        text-align: left;
-       font-family: 'ReemkufiInk';
-       font-size: 23px; 
+       font-family: 'Inter', sans-serif;
+       font-size: 20px;
+       font-weight:300;
 
 
         a {
         color:white;
 
         &:hover {
-        opacity: 0.5;
+        text-decoration: underline;
     }
-
-       
     }
-
-    
-    
     }
 
     p {
-        font-size: 18px;
+        font-size: 16px;
         text-align: left;
         padding-bottom: 3%;
         border-spacing: 3%;
+        line-height: 22px;
+        color:grey;
     }
     p.last-border {
         border-bottom: 0px;
