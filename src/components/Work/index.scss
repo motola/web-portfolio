@@ -47,7 +47,7 @@
         width: 22%;
         color:white;
         margin-top: 4%;
-        height: 102vh;
+        max-height: 120%;
         padding: 1.5% 1.5% 0% 1.5%;
         border: 0.8px solid grey;
         border-radius: 18px;
@@ -140,9 +140,7 @@
 
     }  
 
-    .cut {
-        height: 100vh;
-      }
+    
 }
 
 @media only screen and (max-width: 768px) {

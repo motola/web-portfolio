@@ -78,7 +78,7 @@ const Work = () => {
         <ul class="project-footer">
         <li> JAVASCRIPT </li>
         <li> FETCH API </li>
-        <li> HTML5 / CSS3</li> <br/>
+        <li> HTML5/CSS3</li> <br/>
        
         </ul>  
         </li>
