@@ -21,7 +21,7 @@ const Price = () => {
             <div className='nav-top'>
             <h1>Basic</h1>
             <p>Get a 30 minutes consultation call with me on a professional advise</p>
-            <button>Get 30 mins Free</button>
+            <button><a href="mailto:olutolamoses@gmail.com?subject=Free Consulting Services">Get 30 mins Free</a></button>
             </div>
          
             <div className='nav-bottom'>
@@ -40,8 +40,8 @@ const Price = () => {
             <nav className="price-tab">
             <div className='nav-top'>
             <h1>Business</h1>
-            <h3> &#163; 40 <span className="drop">/hour </span></h3>
-            <button className='button-color'>Book Me</button>
+            <h3> &#163; 25 <span className="drop">/hour </span></h3>
+            <button className='button-color'><a href="mailto:olutolamoses@gmail.com?subject=Business Services">Book Me</a></button>
             </div>
             <div className='nav-bottom'>
             <ul>
@@ -58,8 +58,8 @@ const Price = () => {
             <nav className="price-tab">
             <div className='nav-top'>
             <h1>Pro</h1>
-            <h3> &#163; 60 <span className="drop">/hour </span> </h3>
-            <button className='button-color'>Book Me</button>
+            <h3> &#163; 40 <span className="drop">/hour </span> </h3>
+            <button className='button-color'><a href="mailto:olutolamoses@gmail.com?subject=Pro Services">Book Me</a></button>
             </div>
             <div className='nav-bottom'>
             <ul>

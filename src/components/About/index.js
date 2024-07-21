@@ -21,10 +21,11 @@ const About = () => {
         <div id="about" className='container about-page '>
           <div class="about-stack">
          <h1>Hello! My name is Akinola Olutola</h1>
-         <p> I love innovating and creating solutions that makes live better and more convenient for people around the globe, mostly internet related. Although I have a medical background I have always been fascinated by how the internet works and how it influences everything we do as humans and that has 
-          motivated me to delve into software engineering. My creativity, curiousity, passion and 
-          instinct as brought me to a stage where I am fully now a software Engineer. </p>
-          <p>Although I have a medical background I have always been fascinated by how the internet works and how it influences everything we do as humans and that has motivated me to delve into software engineering. My creativity, curiousity, passion and instinct as brought me to a stage where I am fully now a software Engineer.</p>
+         <p> I am a passionate and dedicated professional with a strong academic and practical background in technology. Holding a Master's degree in Artificial Intelligence and Data Analytics, I have honed my expertise in some of the most cutting-edge and impactful areas of computer science. Over the past two and a half years, I have worked as a full stack engineer, 
+          gaining invaluable experience in developing robust and scalable web applications. </p>
+          <p>My technical skills are complemented by a deep love for music, which fuels my creativity and provides a unique perspective on problem-solving. I believe that the discipline required in mastering an instrument is akin to the precision needed in writing clean and efficient code. This blend of creativity and 
+            technical proficiency allows me to approach challenges with 
+            a balanced and innovative mindset.</p>
           </div>
         
      
