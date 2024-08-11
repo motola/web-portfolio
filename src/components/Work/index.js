@@ -15,8 +15,6 @@ import {
 
 
 const Work = () => {
-
-
     return (
         <>
         <div id="work" className='work-container'>

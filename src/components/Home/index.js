@@ -21,7 +21,7 @@ const Home = () => {
     // const jobArray = ['A',' ','F','u','l','l',' ','S','t','a','c','k',' ',' S','o','f','t','w','a','r','e', ' ', '',' ','E','n','g','i','n','e','e','r']
      return (
       <>
-        <div className='main-section'>
+    <div className='main-section'>
     <section className="section">
     <main>
     <h3> Hello, I'm Akinola, <br/> a Full-Stack Software Engineer</h3>

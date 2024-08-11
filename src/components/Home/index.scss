@@ -109,6 +109,7 @@ img {
 }
 
 .block {
+    background-color: blue;
     display: flex;
     margin-top: -10px;
     justify-content: center;
@@ -119,6 +120,7 @@ img {
 }
 
 .projects {
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,8 +136,9 @@ img {
 }
 
 .projects h1 {
+    
     display: flex;
-    justify-content: flex-end;
+   justify-content: flex-end;
    max-width: 10%;
    font-size: 30px;
    font-weight: 400;
@@ -156,7 +159,28 @@ img {
 @media only screen and (max-width: 768px) {
 
     .section {
-        height: 45vh;
+        height: 50vh;
+        margin-top: 0;
+        position: relative;
+        z-index: 0;
+        padding: 0;
+
+        main {
+           margin-top: -10px;
+           padding-top: -5px;
+        }
+
+        main h3 {
+            width: 100%;
+            font-size: 23px;
+            line-height: 40px;
+
+        }
+        main h5 {
+            font-size: 15px;
+            line-height: 25px;
+
+        }
     }
      
     .aside {
@@ -171,4 +195,42 @@ img {
         font-size: 3.25rem;
         width: 80%;
     }
+    img {
+        width: 0%;
+    }
+    .projects {
+        margin-top: 35px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        gap: 3rem;
+        padding: 8%;
+        justify-content: center;
+        
+     
+    }
+    .projects h1 {
+       max-width: 5%;
+       margin-left:2em;
+       justify-content: center;
+       font-size: 16px;
+       font-weight: 200;
+       line-height: 25px;
+    
+    }
+    .projects h2 {
+       margin-left: 1em;
+       padding: 15px 15px;
+       font-size:40px;
+     }
+
+    main ul.nav-button {
+      margin-top: 30px;
+     }
+
+    main ul.nav-button li {
+        font-size: 10px;
+        padding: 6% 0 5% 1;
+       }
+    
 }
