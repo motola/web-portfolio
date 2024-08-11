@@ -1,7 +1,7 @@
 import './index.scss';
 import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHamburger, faArrowRight,faBrain} from '@fortawesome/free-solid-svg-icons';
+import { faXmark, faBars, faArrowRight,faBrain,} from '@fortawesome/free-solid-svg-icons';
 import {HashLink} from 'react-router-hash-link';
 import { useState } from 'react';
 
@@ -19,7 +19,7 @@ const Header = () => {
         onClick={() => {
             setIsNavExpanded(!isNavExpanded)
           }}>
-          <FontAwesomeIcon  icon={faHamburger} />
+         {isNavExpanded ? <FontAwesomeIcon icon={faXmark} /> : <FontAwesomeIcon icon={faBars} /> }
         </button>
         <div className={isNavExpanded ? "middle_section" : "middle-section2"}>
             <nav id="nav-bar">
@@ -34,7 +34,8 @@ const Header = () => {
        </div>
        <div className={
           isNavExpanded ? "right_section nav-2" : "right-section2"
-        }><h2><HashLink exact="true" className="nav-link" to="/#price"><li>Hire Me <FontAwesomeIcon icon={faArrowRight} /></li></HashLink> </h2></div>
+        }><h2><HashLink exact="true" className="nav-link" to="/#price"><li>Hire Me <FontAwesomeIcon icon={faArrowRight} /></li></HashLink> </h2>
+        </div>
         
       </header>
       </div>
