@@ -34,8 +34,7 @@ const Tech = () => {
 
     return (
         <>
-        
-         <div className="tech-stack">
+         <div className="r-stack">
          <h2 class="header-button">Tech Stack </h2>
          <p> Highly skilled software engineer with extensive experience in a wide range of tech stacks and a deep understanding of industry best practices and software methodologies.</p>
             <div className="face face1">
