@@ -9,7 +9,7 @@ const Blog = () => {
     return (
         <>
         <div id="blog" className="blog-container">
-        <div className="tech-stack">
+        <div className="r-stack">
          <h2 class="header-button">Blog Posts </h2>
          <p> There are a plethora of exciting things about software engineering, explore some of those valuable writeups here.</p>
         </div>

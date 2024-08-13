@@ -161,7 +161,8 @@
         margin-left: auto;
         margin-right: auto;
         font-size: 10px;
-        min-height: 100vh;
+        min-height: 80vh;
+        flex-wrap: wrap;
         margin-top: 20px;
         align-items: center;
         
@@ -191,6 +192,7 @@
         margin-bottom: 5%;
 
         li {
+            width: 25%;
             padding: 1.5% 1%;
             font-size: 0.6em;
         }

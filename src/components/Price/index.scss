@@ -147,25 +147,62 @@
 
 
 @media only screen and (max-width: 768px) {
-       .price-stack {
-        width: 100%;
-        margin-top: -5%;
-        content: "";
-        clear: both;
-        display: table;
-        // text-align: left;
-        padding-left:15%;
-        margin-right: 0;
-    }
+   .price-stack {
+      margin-top: 80px;
+      max-width:90%;
+   }
 
-    .price-stack p {
-        width: 90%;
-        padding-left: 5%;
-    }
-    .tech-stack .face {
-        padding-left: 4%;
-        text-align: center;
+  
+   .price-stack p {
+       margin-top: 20px;
+       line-height: 24px;
+       margin-left: auto;
+       margin-right: auto;
+       width:90%;
+       font-size: 18px;
+       font-weight: 400;
+       align-items: center;
+   }
 
-    }
+   .no-line {
+      border: 0.9px solid grey;
+   }
 
+   .price-container {
+      flex-direction: column;
+      border: none;
+      margin-top: 60px;
+   }
+   .price-tab {
+      width: 100%;
+      margin-bottom: 120px;
+      border: 0.9px solid grey;
+      border-radius: 16px;
+      
+   }
+   .nav-top {
+      padding: 5% 10%;
+      margin: 0;
+      margin-bottom:10%;
+      height:190px;
+   }
+
+   .nav-top p {
+      padding-top: 4%;
+      padding-bottom: 4%;
+   }
+   .nav-top h3 {
+      padding-top: 4%;
+      font-size: 14px;
+      font-weight: 400;
+   }
+
+   .nav-top button {
+      padding: 5%;
+   }
+
+   .nav-bottom {
+      min-height: 83vh;
+   }
+  
 }

@@ -74,10 +74,6 @@ const Price = () => {
             </div>
             </nav>
             </div>
-           
-            
-       
-      
       </>
       
     )
