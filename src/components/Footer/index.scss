@@ -49,3 +49,45 @@
 
 }
 
+
+@media only screen and (max-width: 1200px) {
+
+  .footer {
+    width:100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: flex-start;
+
+    .bold {
+      font-size: 15px;
+      font-weight: bold;
+    }
+    
+    p {
+      width:35%;
+      font-size: 13px;
+      padding-left: 5%;
+    }
+
+    nav {
+      display: flex;
+      flex-direction: row;
+      width:60%;
+      padding-left: 5px;
+      padding-right: 2.5%;
+      justify-content: flex-end;
+      text-align: right;
+    }
+
+    nav li {
+      list-style-type: none;
+      font-size: 22px;
+      display:inline-block;
+      padding: 8px;
+   
+  }
+
+}
+}

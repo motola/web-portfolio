@@ -15,11 +15,11 @@ const About = () => {
     return (
         <>
         
-        <div className="tech-stack about1">
+        <div className="r-stack about1">
         <h2 class="header-button">About Me </h2>
         </div>
         <div id="about" className='container about-page '>
-          <div class="about-stack">
+          <div className="about-stack">
          <h1>Hello! My name is Akinola Olutola</h1>
          <p> I am a passionate and dedicated professional with a strong academic and practical background in technology. Holding a Master's degree in Artificial Intelligence and Data Analytics, I have honed my expertise in some of the most cutting-edge and impactful areas of computer science. Over the past two and a half years, I have worked as a full stack engineer, 
           gaining invaluable experience in developing robust and scalable web applications. </p>
@@ -34,7 +34,7 @@ const About = () => {
         </div>
         </div>
 
-        <div className="tech-stack">
+        <div className="r-stack">
         <h2 class="header-button about2">My Work Values </h2>
         </div>
         <div id="about" className='about-bottom'>
