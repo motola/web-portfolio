@@ -128,7 +128,7 @@
 
  .nav-bottom {
     border-top: 1px solid grey;
-    height: 73vh;
+    min-height: 73vh;
  }
 
  .nav-bottom ul {
@@ -202,7 +202,7 @@
    }
 
    .nav-bottom {
-      min-height: 83vh;
+      max-height: 83vh;
    }
   
 }
