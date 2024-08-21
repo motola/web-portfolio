@@ -140,14 +140,14 @@ section {
         text-align: right;
     
      
-    }    
+    }   
     .middle_section {
         display: block;
         position: absolute;
         z-index: 1000;
         overflow: none;
         width:100vw;
-        height: 100vh;
+        height: 80vh;
         top:11vh;
         margin-left: 0;
         padding-left: 0;
@@ -170,7 +170,11 @@ section {
             color: #0f0e0e;
             font-weight:600;
             padding:30px;
-            font-size:16px;
+            font-size:18px;
+
+            a {
+                color: #0f0e0e;
+            }
             
         }
         
@@ -179,8 +183,11 @@ section {
         .right_section {
             width:100%;
             display: block;
-            margin-top: 105%;
+            margin-left: -2%;
+            margin-top: 170%;
             position: absolute;
+            z-index: 1000;
+
         }
         .middle-section2,.right-section2 {
             display: none;
@@ -198,22 +205,20 @@ section {
         }
     
         .right_section {
-            background-color: white;
-        
-            text-align: center;
-            color: rgb(42, 210, 81);
+
+            padding-left: 6%;
+            text-align: left;
+           
             vertical-align: middle;
         }
     
         .right_section a {
-    
-            color: rgb(42, 210, 81);
+            color: rgb(15, 15, 15);
             text-decoration: none;
-            font-size:16px;
-            padding-top: -2%;
-            font-weight: 100;
-            align-items: center;
-            vertical-align: middle;
+            font-size:18px;
+            margin-top: 50px;
+            font-weight: 600;
+            align-items: left;
     
         }
     
