@@ -25,7 +25,7 @@ const Price = () => {
             <h1>Basic</h1>
             <p> Have an idea? Take action now.</p>
             {/* <button><a href="mailto:olutolamoses@gmail.com?subject=Free Consulting Services">Get 30 mins Free</a></button> */}
-            <button onClick={openCalendlyPopup}><a href>Get 30 mins Free</a></button>
+            <button onClick={openCalendlyPopup}><a href="#!">Get 30 mins Free</a></button>
             </div>
          
             <div className='nav-bottom'>
@@ -46,7 +46,7 @@ const Price = () => {
             <h1>Business</h1>
             {/* <h3> &#163; Billed <span className="drop">/hour </span></h3> */}
             <h3> &#163; Billed <span className="drop">/hour </span></h3>
-            <button className='button-color' onClick={openCalendlyPopup}><a href>Book Me</a></button>
+            <button className='button-color' onClick={openCalendlyPopup}><a href="#!">Book Me</a></button>
             </div>
             <div className='nav-bottom'>
             <ul>
@@ -64,7 +64,7 @@ const Price = () => {
             <div className='nav-top'>
             <h1>Pro</h1>
             <h3> &#163; Billed <span className="drop">/hour </span> </h3>
-            <button className='button-color' onClick={openCalendlyPopup}><a href>Book Me</a></button>
+            <button className='button-color' onClick={openCalendlyPopup}><a href="#!">Book Me</a></button>
             </div>
             <div className='nav-bottom'>
             <ul>
