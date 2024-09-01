@@ -1,11 +1,7 @@
 import './index.scss';
-import {faGear, faWandMagicSparkles,faSnowflake, faCodeCompare} from'@fortawesome/free-solid-svg-icons';
 import myPics from '../../assets/images/digital.jpg';
-
-import Footer from '../Footer';
-
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 
 
