@@ -17,7 +17,7 @@ const About = () => {
          <p> Successful businesses are those that effectively leverage technology to serve their customers and swiftly adapt to growing industry demands by combining the right people with the right tools.
            </p>
           <p>I've curated a comprehensive digital package tailored to your needs, including website development, design, SEO, email setup, cloud solutions, databases, and much more—so you can focus on what matters most to your business while we handle the rest. </p>
-          <h5><a href=''>Explore </a></h5>
+          <h5><a href='#!'>Explore </a></h5>
           </div>
         
      
