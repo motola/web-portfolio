@@ -88,12 +88,18 @@
 
  .no-line {
     border:none;
+
+    button {
+      margin-top: 15px;
+    }
 }
+
+
  .nav-top {
     padding: 0 10%;
     margin: 0;
     margin-bottom:10%;
-    height:170px;
+    max-height:170px;
  }
 
  .nav-top .button-color {

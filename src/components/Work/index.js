@@ -1,4 +1,5 @@
 import './index.scss';
+import React from 'react';
 import ProjectImage1 from '../../assets/images/AI.jpg';
 import ProjectImage2 from '../../assets/images/ward.jpg';
 import ProjectImage3 from '../../assets/images/stack.jpg';

@@ -1,3 +1,4 @@
+import React from 'react';
 import './index.scss';
 import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -25,10 +26,10 @@ const Header = () => {
             <nav id="nav-bar">
             <ul>
                 
-                <NavLink exact="true" className="nav-link" to="/About"><li>About </li></NavLink>
+                <NavLink exact="true" className="nav-link nav-link2" to="/About"><li>Lifestyle </li></NavLink>
                 <HashLink exact="true" className="nav-link" to="/#work"><li> Work</li></HashLink>
                 <HashLink exact="true" className="nav-link" to="/#blog"><li>Blog</li></HashLink>
-                <li><a href="mailto:olutolamoses@gmail.com">Contact </a></li>
+                <li><a href="mailto:olutolamoses@gmail.com">Explore </a></li>
             </ul>
            </nav>
        </div>
