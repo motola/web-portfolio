@@ -7,6 +7,7 @@ import {HashLink} from 'react-router-hash-link';
 import Logo from '../../assets/images/heroimage.png';
 import Work from '../Work';
 import Blog from '../Blog';
+import Digital from '../digital'
 import Footer from '../Footer';
 
 // import Loader from 'react-loaders';
@@ -55,6 +56,7 @@ const Home = () => {
     <Work />
     <TechLogo />
     <Price />
+    <Digital />
     <Blog />
     <Footer />
     </div>
