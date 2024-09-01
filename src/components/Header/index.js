@@ -1,3 +1,4 @@
+import React from 'react';
 import './index.scss';
 import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

@@ -1,3 +1,4 @@
+import React from 'react';
 import './index.scss';
 import  TechLogo from '../TechStack';
 import  Price from '../Price';
