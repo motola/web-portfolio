@@ -26,7 +26,7 @@ const Header = () => {
             <nav id="nav-bar">
             <ul>
                 
-                <NavLink exact="true" className="nav-link nav-link2" to="/About"><li>Lifestyle </li></NavLink>
+                <NavLink exact="true" className="nav-link nav-link2" to="/About"><li>About</li></NavLink>
                 <HashLink exact="true" className="nav-link" to="/#work"><li> Work</li></HashLink>
                 <HashLink exact="true" className="nav-link" to="/#blog"><li>Blog</li></HashLink>
                 <li><a href="mailto:olutolamoses@gmail.com">Explore </a></li>

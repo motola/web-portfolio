@@ -34,14 +34,24 @@
         color:white;
         font-family: 'Inter', sans-serif;
     }
-    h5 a {
-        font-family: 'Inter', sans-serif;
-        font-size: 16px;
-        font-weight: 600;
+    .about-stack h5 {
+        
+        
+        
         margin-top:-0.5px;
-        color: aliceblue;
-        width:65px;
+        width:55px;
         border-bottom: 1px solid white ;
+    }
+
+    .about-stack button {
+        font-family: 'Inter', sans-serif;
+        border: none;
+        background: none;
+        padding:0;
+        font-weight: 600;
+        margin:0;
+        font-size: 14px;
+        color: aliceblue;
     }
 
 }
