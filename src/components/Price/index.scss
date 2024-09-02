@@ -134,7 +134,7 @@
 
  .nav-bottom {
     border-top: 1px solid grey;
-    min-height: 73vh;
+    height: 73vh;
  }
 
  .nav-bottom ul {
@@ -170,9 +170,9 @@
        align-items: center;
    }
 
-   .no-line {
-      border: 0.9px solid grey;
-   }
+      .no-line {
+         border: 0.9px solid grey;
+      }
 
    .price-container {
       flex-direction: column;

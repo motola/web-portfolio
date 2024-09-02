@@ -90,7 +90,7 @@ const Work = () => {
        </a>
         <h3> Stackoverflow API </h3>   {/*  3 */}
         </div>
-        <h5> Built a stackoverflow backend API that performs all basic CRUD operations that runs on the stackoverflow application, integrated authentication with Jsonwebtoken and persisting data with NoSql database. </h5>
+        <h5> Built a stackoverflow backend API that performs all basic CRUD operationss, integrated authentication with Jsonwebtoken and persisting data with NoSql database. </h5>
         <h5> Stack Overflow is a popular online platform where developers and programmers can ask and
         answer technical questions. It is a part of the Stack Exchange network and focuses 
         specifically on topics related to programming and software development.  </h5>
@@ -143,7 +143,7 @@ const Work = () => {
        <h3> React Notes Application </h3>  {/*  5 */}
        </div>
         
-        <h5> The React Notes Application is a dynamic and responsive web application that allows users to create, edit, view, and delete notes. This project demonstrates proficiency in front-end development using React and showcases an ability to manage application state effectively.. </h5>
+        <h5> The React Notes Application is a dynamic and responsive web application that allows users to create, edit, view, and delete notes. This project demonstrates proficiency in front-end development using React and showcases an ability to manage application state effectively. </h5>
         <h5> The application is structured into several components, each responsible for a specific part of the functionality. This modular approach helps in maintaining and scaling the application. </h5>
         
         <h5>Other implemented features are a component-based Architecture that involves building reusable and maintainable components,
