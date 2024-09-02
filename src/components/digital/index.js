@@ -23,7 +23,7 @@ const About = () => {
 
     return (
         <>
-        <div id="about" className='container about-page '>
+        <div id="digital" className='container about-page '>
           <div className="about-stack">
          <h2>Go Fully Digital</h2>
          <p> Successful businesses are those that effectively leverage technology to serve their customers and swiftly adapt to growing industry demands by combining the right people with the right tools.

@@ -29,7 +29,7 @@ const Header = () => {
                 <NavLink exact="true" className="nav-link nav-link2" to="/About"><li>About</li></NavLink>
                 <HashLink exact="true" className="nav-link" to="/#work"><li> Work</li></HashLink>
                 <HashLink exact="true" className="nav-link" to="/#blog"><li>Blog</li></HashLink>
-                <li><a href="mailto:olutolamoses@gmail.com">Explore </a></li>
+                <HashLink exact="true" className="nav-link" to="/#digital"><li>Explore </li></HashLink>
             </ul>
            </nav>
        </div>
